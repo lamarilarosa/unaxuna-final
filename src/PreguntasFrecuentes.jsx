@@ -8,7 +8,7 @@ const PreguntasFrecuentes = () => {
   };
 
   return (
-    <div className="flex">
+    <div className="flex pl-20 pr-20 bg-fuchsia-800">
       <div className="w-1/3 p-4 bg-gray-200">
         <h2 className="text-xl font-bold mb-4">Información</h2>
         <p>Este es un texto de ejemplo. Puedes reemplazar este texto con cualquier contenido que desees.</p>
