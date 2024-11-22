@@ -13,28 +13,17 @@ const FormularioExpandible = () => {
   const isFormValid = name && selectedOption && additionalFieldsVisible;
 
   return (
-    <div className="bg-pink-300 p-4">
-      <h1 className="text-center text-2xl font-bold mb-4">Primer paso</h1>
-      <p className="text-center mb-8">Este es el primer paso</p>
-      <div className="w-4/6 mx-auto grid grid-cols-3 gap-4">
-        <div className="bg-white p-4 rounded-md shadow-md text-center">
-          <h2 className="text-xl font-bold mb-2">Box 1</h2>
-          <p>Content for box 1</p>
-        </div>
-        <div className="bg-white p-4 rounded-md shadow-md text-center">
-          <h2 className="text-xl font-bold mb-2">Box 2</h2>
-          <p>Content for box 2</p>
-        </div>
-        <div className="bg-white p-4 rounded-md shadow-md text-center">
-          <h2 className="text-xl font-bold mb-2">Box 3</h2>
-          <p>Content for box 3</p>
-        </div>
-      </div>
+    <div className="bg-pink-300 p-4 font-sans">
+      <h1 className="text-center text-2xl font-bold mb-4">UNA X UNA NOS PONE EN ACCIÓN PARA GANARLE AL CÁNCER DE MAMAS. </h1>
+      
+      
       <div className="w-4/6 mx-auto mt-8 bg-white p-4 rounded-md shadow-md">
         <form>
+          <h2 className="text-center text-2xl font-bold mb-4">Anotá en este formulario a quien todavía no se hizo su mamografía anual.</h2>
+          <h3 className="text-center text-2xl font-bold mb-4">Prevengamos el cáncer entre todas. </h3>
           <div className="mb-4">
             <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="name">
-              Name
+            Mi nombre es:
             </label>
             <input
               type="text"
@@ -46,7 +35,7 @@ const FormularioExpandible = () => {
           </div>
           <div className="mb-4">
             <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="options">
-              Select an option
+            Y quiero inscribir en una x una a:
             </label>
             <select
               id="options"
@@ -54,10 +43,11 @@ const FormularioExpandible = () => {
               onChange={handleOptionChange}
               className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             >
-              <option value="">Select...</option>
-              <option value="option1">Option 1</option>
-              <option value="option2">Option 2</option>
-              <option value="option3">Option 3</option>
+              <option value="">Elegir</option>
+              <option value="option1">¡A mi misma!</option>
+              <option value="option1">Mi mamá</option>
+              <option value="option2">Mi hermana</option>
+              <option value="option3">Mi abuela</option>
             </select>
           </div>
           {additionalFieldsVisible && (
