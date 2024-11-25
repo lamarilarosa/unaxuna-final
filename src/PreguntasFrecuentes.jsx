@@ -8,7 +8,7 @@ const PreguntasFrecuentes = () => {
   };
 
   return (
-    <div className="flex pl-20 pr-20 bg-fuchsia-800" style={{ backgroundImage: "url('https://www.unaxuna.com/images/faq/background-faq.svg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
+    <div className="flex pl-20 pr-20 bg-fuchsia-800 " style={{ backgroundImage: "url('src/assets/Group-724.svg')", backgroundSize: 'contain', backgroundPosition: 'top', backgroundRepeat: 'no-repeat', backgroundSize: '100% auto' }}>
       
       
       <div className="w-1/3 p-4 bg-fuchsia-800 text-white my-44">
