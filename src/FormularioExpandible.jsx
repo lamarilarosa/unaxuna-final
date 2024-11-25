@@ -14,10 +14,12 @@ const FormularioExpandible = () => {
 
   return (
     <div className="bg-pink-300 p-4 font-sans">
-      <h1 className="text-center text-2xl font-bold mb-4">UNA X UNA NOS PONE EN ACCIÓN PARA GANARLE AL CÁNCER DE MAMAS. </h1>
+      <div className='text-center'>
+      <h1 className="text-4xl font-light mb-4 text-gray-600">UNA X UNA NOS PONE EN ACCIÓN PARA GANARLE AL CÁNCER DE MAMAS. </h1></div>
       
       
-      <div className="w-4/6 mx-auto mt-8 bg-white p-4 rounded-md shadow-md">
+      
+      <div className="w-4/6 mx-auto mt-8 bg-white p-4 shadow-md rounded-3xl px-44 py-16">
         <form>
           <h2 className="text-center text-2xl font-bold mb-4">Anotá en este formulario a quien todavía no se hizo su mamografía anual.</h2>
           <h3 className="text-center text-2xl font-bold mb-4">Prevengamos el cáncer entre todas. </h3>

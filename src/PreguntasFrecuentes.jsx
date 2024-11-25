@@ -8,18 +8,21 @@ const PreguntasFrecuentes = () => {
   };
 
   return (
-    <div className="flex pl-20 pr-20 bg-fuchsia-800">
-      <div className="w-1/3 p-4 bg-gray-200">
-        <h2 className="text-xl font-bold mb-4">Información</h2>
-        <p>Este es un texto de ejemplo. Puedes reemplazar este texto con cualquier contenido que desees.</p>
+    <div className="flex pl-20 pr-20 bg-fuchsia-800" style={{ backgroundImage: "url('https://www.unaxuna.com/images/faq/background-faq.svg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
+      
+      
+      <div className="w-1/3 p-4 bg-fuchsia-800 text-white my-44">
+        <h2 className="text-xl font-bold mb-4">Preguntas frecuentes </h2>
+        <p className='pb-5'>Te dejamos aquí algunas respuestas.</p>
+        <ul><li>Para más info: hola@unaxuna.com +54 9 261 333 0115</li><li>Sede Fundavita: Salta 1829, Planta Baja, Ciudad, Mendoza, Argentina</li></ul>
       </div>
-      <div className="w-2/3 p-4">
-        <h1 className="text-2xl font-bold mb-4">Preguntas Frecuentes</h1>
+      <div className="w-2/3 pl-5 pt-20">
+  
         <div className="accordion">
-          {['¿Cómo funciona el servicio?', '¿Cómo me registro?', '¿Puedo cambiar mi plan de suscripción?', '¿Cuánto cuesta el servicio?', '¿Cómo cancelo mi suscripción?', '¿Puedo obtener un reembolso?', '¿Cómo contacto al soporte?'].map((question, index) => (
+          {['¿Qué es UNA X UNA?', 'No tengo cobertura médica ¿puedo registrarme?', 'Si tengo cobertura médica ¿puedo registrarme?', '¿Puedo inscribir a una mujer menor de 40 años?', '¿Hasta cuando están abiertas las inscripciones?', '¿Una x una es una campaña exclusiva para mendocinas?', '¿Cómo puedo donar dinero a la campaña?'].map((question, index) => (
             <div key={index} className="mb-2">
               <button
-                className="w-full text-left p-2 bg-pink-300 hover:bg-pink-400 text-fuchsia-900 font-bold rounded"
+                className="w-full text-left p-2 bg-white hover:bg-gray-200 text-gray-700 font-normal rounded"
                 onClick={() => toggleAccordion(index)}
               >
                 {question}
