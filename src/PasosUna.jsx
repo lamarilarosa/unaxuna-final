@@ -9,7 +9,7 @@ const PasosUna = () => {
           <div className="bg-white p-4 rounded-md shadow-md text-left py-16">
           <h1 className="text-5xl mb-2 bg-fuchsia-800 rounded-full w-16 h-16 flex items-center justify-center text-white font-thin">1</h1>
             <h2 className="text-xl font-bold mb-2 pt-6 text-fuchsia-800">El paso 1 es un acto de amor.</h2>
-            <p>Inscribí en una x una a las mujeres que querés cuidar y prevenir del cáncer de mamas. Anotalas para su mamografía anual preventiva. El 90% de los casos detectados a tiempo tienen cura.Podés anotar tantas mujeres como quieras. La única condición es que vivan en Mendoza.</p>
+            <p className="text-gray-500">Inscribí en una x una a las mujeres que querés cuidar y prevenir del cáncer de mamas. Anotalas para su mamografía anual preventiva. El 90% de los casos detectados a tiempo tienen cura.Podés anotar tantas mujeres como quieras. La única condición es que vivan en Mendoza.</p>
           </div>
           <div className="bg-white p-4 rounded-md shadow-md text-left py-16">
             <div className="relative">

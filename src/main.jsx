@@ -11,6 +11,14 @@ import PreguntasFrecuentes from './PreguntasFrecuentes.jsx'
 import FormularioExpandible from './FormularioExpandible.jsx'
 import NuestraLucha from './NuestraLucha.jsx'
 
+import ImageRow from './TodosLogos.jsx'
+import ImageRow1 from './DosLogos.jsx'
+import ImageRow3 from './DosLogosMas.jsx'
+import ImageRow2 from './DesarrolladoPor.jsx'
+import Footer from './Footer.jsx'
+import PreFooter from './PreFooter.jsx'
+
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <MainHeader />
@@ -21,6 +29,11 @@ createRoot(document.getElementById('root')).render(
     <FormularioExpandible/>
     <NuestraLucha />
     <PreguntasFrecuentes />
-    <App />
+    <ImageRow3 />
+    <PreFooter />
+    <ImageRow1 />
+    <ImageRow />
+    <ImageRow2 />
+    <Footer />
   </StrictMode>,
 )
