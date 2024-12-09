@@ -1,7 +1,7 @@
 const PreFooter = () => {
     return (
       <footer className="bg-fuchsia-800 text-white py-10">
-        <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-4 text-left text-xm">
+        <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-4 text-left text-xm w-4/5">
           <div className="p-4"><img src="/src/assets/footer/logo-unaxuna.svg" alt="" />
           </div>
           <div className="p-4">

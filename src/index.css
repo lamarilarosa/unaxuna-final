@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.main-header-2-logos {
+  @apply bg-black pl-20 pr-20 h-20 flex items-center justify-between w-full;
+}
+
+.main-header-2-logos-content {
+  @apply flex items-center justify-between w-full;
+}

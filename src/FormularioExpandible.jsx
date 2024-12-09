@@ -21,8 +21,8 @@ const FormularioExpandible = () => {
       
       <div className="w-4/6 mx-auto mt-8 bg-white p-4 shadow-md rounded-3xl px-44 py-16">
         <form>
-          <h2 className="text-center text-2xl font-bold mb-4">Anotá en este formulario a quien todavía no se hizo su mamografía anual.</h2>
-          <h3 className="text-center text-2xl font-bold mb-4">Prevengamos el cáncer entre todas. </h3>
+          <h2 className="text-center text-2xl font-bold mb-4 text-fuchsia-800">Anotá en este formulario a quien todavía no se hizo su mamografía anual.</h2>
+          <h3 className="text-center text-2xl font-bold mb-4 text-fuchsia-800">Prevengamos el cáncer entre todas. </h3>
           <div className="mb-4">
             <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="name">
             Mi nombre es:
@@ -32,7 +32,7 @@ const FormularioExpandible = () => {
               id="name"
               value={name}
               onChange={(e) => setName(e.target.value)}
-              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              className="shadow appearance-none border rounded w-full py-2 px-3 text-fuchsia-800 bg-pink-300 h-14 leading-tight focus:outline-none focus:shadow-outline"
             />
           </div>
           <div className="mb-4">
@@ -43,7 +43,7 @@ const FormularioExpandible = () => {
               id="options"
               value={selectedOption}
               onChange={handleOptionChange}
-              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              className="shadow appearance-none border rounded w-full py-2 px-3  text-fuchsia-800 bg-pink-300 h-14 leading-tight focus:outline-none focus:shadow-outline"
             >
               <option value="">Elegir</option>
               <option value="option1">¡A mi misma!</option>
@@ -56,22 +56,22 @@ const FormularioExpandible = () => {
             <>
               <div className="mb-4">
                 <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="additional1">
-                  Additional Field 1
+                  Tengo
                 </label>
                 <input
                   type="text"
                   id="additional1"
-                  className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                  className="shadow appearance-none border rounded w-full py-2 px-3  text-fuchsia-800 bg-pink-300 h-14 leading-tight focus:outline-none focus:shadow-outline"
                 />
               </div>
-              <div className="mb-4">
+              <div className="mb-4 pb-14">
                 <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="additional2">
-                  Additional Field 2
+                El Centro de imágenes debería quedar en: 
                 </label>
                 <input
                   type="text"
                   id="additional2"
-                  className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                  className="shadow appearance-none border rounded w-full py-2 px-3  text-fuchsia-800 bg-pink-300 h-14 leading-tight focus:outline-none focus:shadow-outline"
                 />
               </div>
             </>
@@ -79,9 +79,9 @@ const FormularioExpandible = () => {
           <button
             type="submit"
             disabled={!isFormValid}
-            className={`w-full py-2 px-4 font-bold text-white rounded ${isFormValid ? 'bg-blue-500 hover:bg-blue-700' : 'bg-gray-400 cursor-not-allowed'}`}
+            className={`w-full py-2 h-14 px-4 font-bold text-white rounded ${isFormValid ? 'bg-fuchsia-800 hover:bg-fuchsia-900' : 'bg-gray-400 cursor-not-allowed'}`}
           >
-            Send form
+            Enviar formulario
           </button>
         </form>
       </div>

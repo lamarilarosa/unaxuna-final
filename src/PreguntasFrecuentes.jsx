@@ -8,8 +8,8 @@ const PreguntasFrecuentes = () => {
   };
 
   return (
-    <div className="flex flex-col pl-20 pr-20 bg-fuchsia-800" style={{ backgroundImage: "url('src/assets/Group-724.svg')", backgroundSize: 'cover', backgroundPosition: 'top', backgroundRepeat: 'no-repeat', }}>
-      <div className="flex w-full">
+    <div className="flex flex-col items-center pl-20 pr-20 bg-fuchsia-800" style={{ backgroundImage: "url('src/assets/Group-724.svg')", backgroundSize: 'cover', backgroundPosition: 'top', backgroundRepeat: 'no-repeat' }}>
+      <div className="flex justify-center w-full">
         <div className="w-1/3 p-4 bg-fuchsia-800 text-white my-44 drop-shadow-lg">
           <h2 className="text-xl font-bold mb-4">Preguntas frecuentes </h2>
           <p className='pb-5'>Te dejamos aquí algunas respuestas.</p>
@@ -38,6 +38,7 @@ const PreguntasFrecuentes = () => {
           </div>
         </div>
       </div>
+      <p className="mt-4 text-white">Este es un texto de ejemplo. Puedes reemplazar este texto con cualquier contenido que desees.</p>
     </div>
   );
 };

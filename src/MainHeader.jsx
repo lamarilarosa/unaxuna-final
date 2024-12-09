@@ -1,3 +1,5 @@
+import MainHeader2Logos from "./MainHeader2Logos";
+
 const MainHeader = () => {
   return (
     <header>
@@ -9,13 +11,19 @@ const MainHeader = () => {
           Para las mamografías de las mujeres que no tienen cobertura médica
         </span>
       </div>
-      <div className="bg-black bg-opacity-50 pl-20 pr-20 h-20 flex items-center justify-between px-4 fixed w-full z-10">
-        <img src="src/assets/logo-wakapi.svg" alt="Generic Logo" className="h-8" />
-        <div className="flex space-x-4">
-          <img src="src/assets/logo-fundavita-horizontal.svg" alt="Logo 1" className="h-8" />
-          <img src="src/assets/logo-del-plata.svg" alt="Logo 2" className="h-8" />
-        </div>
-      </div>
+
+      <MainHeader2Logos />
+
+            {/* <div className="bg-black bg-opacity-50 pl-20 pr-20 h-20 flex items-center justify-between px-4 fixed w-full z-10">
+              <img src="src/assets/logo-wakapi.svg" alt="Generic Logo" className="h-8" />
+              <div className="flex space-x-4">
+                <img src="src/assets/logo-fundavita-horizontal.svg" alt="Logo 1" className="h-8" />
+                <img src="src/assets/logo-del-plata.svg" alt="Logo 2" className="h-8" />
+              </div>
+            </div> */}
+            
+
+
       <div className="hero bg-cover bg-center h-screen" style={{ backgroundImage: "url('https://www.unaxuna.com/images/slider/slide-1.jpg')" }}>
         <div className="relative h-full flex items-center justify-center">
           <div className="container mx-auto px-4 bg-fuchsia-800 w-4/6 min-h-fit rounded-2xl">
