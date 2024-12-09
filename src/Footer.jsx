@@ -6,11 +6,11 @@ const Footer = () => {
             <p>Copyright © 2023 Farmacias Del Plata </p>
           </div>
           <div className="p-4">
-            <p>Fundavita, Fundación para la Vida y
+            <p>Fundavita, Fundación para la Vida y <br />
             contra el Cáncer </p>
           </div>
           <div className="p-4">
-            <p>UNA X UNA es una idea original de @somosfuentes
+            <p>UNA X UNA es una idea original de <br /> @somosfuentes
 </p>
           </div>
           <div className="p-4">
