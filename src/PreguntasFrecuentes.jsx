@@ -38,7 +38,6 @@ const PreguntasFrecuentes = () => {
           </div>
         </div>
       </div>
-      <p className="mt-4 text-white">Este es un texto de ejemplo. Puedes reemplazar este texto con cualquier contenido que desees.</p>
     </div>
   );
 };
